@@ -12,7 +12,7 @@ on:
       - '*.sh'
       - 'luci-app-r2sflasher'
   schedule:
-    - cron: '35 05 * * *'
+    - cron: '25 05 * * *'
 
 jobs:
   build:
