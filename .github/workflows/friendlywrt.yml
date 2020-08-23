@@ -12,14 +12,14 @@ on:
       - '*.sh'
       - 'luci-app-r2sflasher'
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '30 05 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.sec_token }}
-      sec_token: ${{ secrets.sec_token }}
+      GITHUB_TOKEN: ${{ secrets.SEC_TOKEN }}
+      sec_token: ${{ secrets.SEC_TOKEN }}
     
     steps:
       - name: Setup timezone
