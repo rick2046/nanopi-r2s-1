@@ -10,7 +10,7 @@ on:
       - '.github/workflows/friendlywrt_with_flowoffload.yml'
       - 'FriendlyWRTwithFlowOffload/minimal_offload.seed'
   schedule:
-    - cron: '10 02 * * *'
+    - cron: '10 02 * * 5'
 
       
 jobs:
