@@ -11,8 +11,8 @@ on:
       - 'features.seed'
       - '*.sh'
       - 'luci-app-r2sflasher'
-  schedule:
-    - cron: '38 06 * * 4'
+#  schedule:
+#    - cron: '38 06 * * 4'
 
 jobs:
   build:
