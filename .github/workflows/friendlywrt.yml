@@ -11,8 +11,8 @@ on:
       - 'minimal_config.seed'
       - '*.sh'
       - 'luci-app-r2sflasher'
-  schedule:
-    - cron: '25 05 * * 4'
+#  schedule:
+#    - cron: '25 05 * * 4'
 
 jobs:
   build:
